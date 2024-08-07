@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    <style>
+      /*comentarios en CSS*/
+      html, body {
+      margin: 0;
+      padding: 0;
+      cursor: crosshair;
+      }
+      canvas {
+      display: block;
+      }
+      h1{
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+        z-index: 2;
+      }
+      p{
+        position: absolute;
+        width: 50vw;
+        top: 4rem;
+        left: 3rem;
+        z-index: 2;
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <main>
+
+      <h1>Hola mundo!</h1>
+      <!-- comentario en HTML-->
+      <p> Tomé este curso porque he tenido varias experiencias con clientes que requieren de página web y hasta ahora no tengo las habilidades para poder desarrollarlas, además a la hora de trabajar con programadores no tengo un lenguaje común que nos permita trabajar con fluidez. Espero que al finalizar este curso poder desarrollar páginas por mi cuenta o bien poder trabajar en un mismo lenguaje con otros profesionales </p>
+
+    </main>
+    <script>
+      //comentario de una línea en javascript//
+      /*Comentario
+      en varias
+      líneas
+      en javascript*/
+    var a = "Hola mundo!";
+    function setup() {
+      createCanvas(windowWidth, windowHeight);
+      background(220,200,150);
+      stroke(100)
+    }
+    function draw() {
+      line(pmouseX, pmouseY, mouseX, mouseY);
+    }
+    </script> 
+
+  </body>
+</html>
